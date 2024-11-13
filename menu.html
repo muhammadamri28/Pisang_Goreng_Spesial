@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url('bg.jpeg'); 
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+        }
+        .container {
+            margin-top: 10px;
+        }
+        .menu-card {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgb(255, 255, 255);
+        }
+        .menu-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .menu-description {
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        .menu-price {
+            font-size: 1.2rem;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <a class="navbar-brand" href="#">Pisang Goreng Spesial</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container mt-5">
+        <div class="container">
+            <h1 class="text-center">Menu Kami</h1>
+            <h2 class="text-center mt-5">Makanan</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P1.png" alt="Pisang Goreng Klasik" class="menu-image" style="width: 100%; border-radius: 10px;">
+                        <div class="menu-title">Pisang Goreng Klasik</div>
+                        <div class="menu-price">Rp 10.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P2.png" alt="Pisang Goreng Cokelat" class="menu-image" style="width: 100%; border-radius: 10px;">
+                        <div class="menu-title">Pisang Goreng Cokelat</div>
+                        <div class="menu-price">Rp 12.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P3.png" alt="Pisang Goreng Keju" class="menu-image" style="width: 80%; border-radius: 7px;">
+                        <div class="menu-title">Pisang Goreng Keju</div>
+                        <div class="menu-price">Rp 13.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P4.png" alt="Pisang Goreng Cokelat Keju" class="menu-image" style="width: 100%; border-radius: 10px;">
+                        <div class="menu-title">Pisang Goreng Cokelat Keju</div>
+                        <div class="menu-price">Rp 15.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P5.png" alt="Pisang Goreng Nuget" class="menu-image" style="width: 100%; border-radius: 10px;">
+                        <div class="menu-title">Pisang Goreng Nuget</div>
+                        <div class="menu-price">Rp 11.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="menu-card">
+                        <img src="P6.png" alt="Pisang Goreng Sulawesi" class="menu-image" style="width: 100%; border-radius: 10px;">
+                        <div class="menu-title">Pisang Goreng Sulawesi</div>
+                        <div class="menu-price">Rp 13.000</div>
+                        <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+    
+            <h2 class="text-center mt-5">Minuman</h2>
+            <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="M1.png" alt="Es Teh" class="menu-image" style="width: 100%; border-radius: 10px;">
+                    <div class="menu-title">Es Teh</div>
+                    <div class="menu-price">Rp 5.000</div>
+                    <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="M2.png" alt="Teh Hangat" class="menu-image" style="width: 100%; border-radius: 10px;">
+                    <div class="menu-title">Teh Hangat</div>
+                    <div class="menu-price">Rp 4.000</div>
+                    <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="M4.png" alt="Susu" class="menu-image" style="width: 100%; border-radius: 10px;" style="height: 80%; border-radius: 10px;">
+                    <div class="menu-title">Susu</div>
+                    <div class="menu-price">Rp 5.000</div>
+                    <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="M3.png" alt="Kopi" class="menu-image" style="width: 100%; border-radius: 10px;">
+                    <div class="menu-title">Kopi</div>
+                    <div class="menu-price">Rp 5.000</div>
+                    <button class="btn btn-warning mt-2">Pesan Sekarang</button>
+                </div>
+            </div>
+            </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

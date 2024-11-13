@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.home-menu {
+    padding: 20px; /* menambah ruang di dalam elemen home-menu */
+}
+
+.menu-card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px; 
+    text-align: center; 
+    transition: transform 0.2s;
+}
+
+.menu-card:hover {
+    transform: scale(1.05);
+}
+
+.menu-image {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.menu-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #808080;
+}
+
+.menu-description {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.menu-price {
+    font-size: 1.2em;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #ffffff;
+}
+
